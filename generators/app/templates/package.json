@@ -1,0 +1,15 @@
+{
+  "name": "<%= appname %>",
+  "version": "<%= version %>",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode development",
+    "dist": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "<%= author %>",
+  "license": "ISC"
+}
+
